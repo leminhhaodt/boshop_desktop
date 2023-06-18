@@ -1,0 +1,250 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fonts/SFPro/SF-Pro-Display-Regular.otf);
+}
+
+body {
+    font-family: 'SF Pro Display';
+    position: relative;
+    font-weight: 400;
+    font-size: 15px
+}
+
+ul {
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease
+}
+
+a:focus {
+    outline: 0
+}
+
+img {
+    max-width: 100%
+}
+
+p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+h4 {
+    font-family: 'SF Pro Display';
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    padding: 0;
+    color: #000000;
+}
+
+a {
+    color: #5867dd
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.footer-big {
+    padding: 32px 41px 65px 41px
+}
+
+.footer-big .footer-widget {
+    margin-bottom: 40px
+}
+
+.footer--light {
+    background: #ffffff
+}
+
+.footer-big .footer-menu ul li a,
+.footer-big p,
+.footer-big ul li {
+    color: #000000
+}
+
+.footer-menu {
+    padding-left: 48px
+}
+
+.footer-menu .container-fluid {
+    padding: 8px 0 8px 0;
+}
+
+.footer-menu .container-fluid .row .col-3 {
+    padding: 0 0 0 3px;
+}
+
+.footer-menu .container-fluid .row .col-auto {
+    padding-left: 3px;
+    padding-right: 0px;
+}
+
+.footer-menu .container-fluid .row .col-3 img {
+    width: 100%;
+}
+
+.footer-menu ul li a {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-menu ul li {
+    padding-bottom: 16px;
+}
+
+.footer-menu ul li a:hover {
+    color: #5867dd
+}
+
+.footer-menu--1 {
+    width: 100%
+}
+
+.footer-widget-title {
+    line-height: 42px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.widget-about img {
+    display: block;
+    margin-bottom: 30px
+}
+
+.widget-about p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.widget-about .contact-details {
+    margin: 30px 0 0 0
+}
+
+.widget-about .contact-details li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.widget-about .contact-details li img {
+    height: 28px;
+    Width: 28px;
+}
+
+.widget-about .contact-details li:last-child {
+    margin-bottom: 0
+}
+
+.widget-about .contact-details li span {
+    padding-right: 12px
+}
+
+.widget-about .contact-details li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#address {
+    padding-bottom: 28px;
+}
+
+
+/* .container-fluid {
+    padding: 0;
+} */
+
+
+/* .footer-menu li a {
+    color:black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+} */
+
+@media (max-width:991px) {
+    .footer-menu {
+        padding-left: 0
+    }
+}
+
+
+/* Input mail */
+
+input[type="email"] {
+    width: 153px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #D8D8D8;
+    position: relative;
+}
+
+.button_sub {
+    margin-left: -6%;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #C83F51;
+    border: none;
+}
+
+.button_sub p {
+    display: contents;
+}
+
+.bold {
+    color: #FFFFFF !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+.mail_sub {
+    display: flex;
+}

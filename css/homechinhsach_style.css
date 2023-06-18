@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../fonts/SFPro/SF-Pro-Display-Regular.otf);
+}
+
+.policy-footer {
+    background-color: #fff5f5;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.policy-footer .content-policy .policy-down .title-policy {
+    color: #000000;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.policy-footer .content-policy .policy-down .policy-sumary {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.policy-footer .container-fluid {
+    padding: 0 41px 0 41px;
+}
